@@ -1,4 +1,4 @@
-# NextJs Tailwind Boilerplate
+# Appsprint Lab Portfolio
 
 ## Getting Started
 

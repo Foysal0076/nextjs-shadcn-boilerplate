@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 
 import { Inter, Rubik } from 'next/font/google'
 
+import FaviconsLinks from '@/components/common/FaviconsLinks'
 import NextThemeProvider from '@/components/common/NextThemeProvider'
 import { Footer } from '@/components/footer'
 import { Navbar } from '@/components/navigation'
@@ -19,9 +20,8 @@ const rubik = Rubik({
 })
 
 export const metadata = {
-  title: 'Next.js + Tailwind + shadcn Starter',
-  description:
-    'A starter template to build amazing static websites with Next.js, Tailwind CSS, and shadcn',
+  title: 'Appsprint Lab',
+  description: 'Appsprint Lab',
 }
 
 export default function RootLayout({
@@ -34,12 +34,7 @@ export default function RootLayout({
       lang='en'
       suppressHydrationWarning
       className={`${inter.variable} ${rubik.variable}`}>
-      <link
-        rel='icon'
-        type='image/ico'
-        sizes='32x32'
-        href='/assets/favicons/favicon.ico'
-      />
+      <FaviconsLinks />
       <body>
         <NextThemeProvider>
           <div className='flex min-h-screen flex-col justify-between pt-[3.75rem] md:pt-[4.5rem]'>
