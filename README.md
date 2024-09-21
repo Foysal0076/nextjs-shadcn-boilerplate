@@ -1,4 +1,4 @@
-# Appsprint Lab Portfolio
+# Appname
 
 ## Getting Started
 

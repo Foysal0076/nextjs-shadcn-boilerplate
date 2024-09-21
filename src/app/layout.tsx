@@ -20,8 +20,8 @@ const rubik = Rubik({
 })
 
 export const metadata = {
-  title: 'Appsprint Lab',
-  description: 'Appsprint Lab',
+  title: 'App Name',
+  description: 'App Name',
 }
 
 export default function RootLayout({

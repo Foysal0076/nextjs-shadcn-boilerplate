@@ -92,7 +92,7 @@ export const HomeHero = () => {
         </div>
       </div> */}
       <h1 className='h1 mt-20 text-center'>
-        Welcome to <br /> Appsprint Lab
+        Welcome to <br /> Next.js and shadcn Boilerplate
       </h1>
     </div>
   )

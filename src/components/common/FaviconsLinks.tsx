@@ -22,10 +22,10 @@ const FaviconsLinks = () => {
       <link
         rel='mask-icon'
         href='/assets/favicons/safari-pinned-tab.svg'
-        color='#068fff'
+        color='#5bbad5'
       />
       <link rel='shortcut icon' href='/assets/favicons/favicon.ico' />
-      <meta name='msapplication-TileColor' content='#603cba' />
+      <meta name='msapplication-TileColor' content='#da532c' />
       <meta
         name='msapplication-config'
         content='/assets/favicons/browserconfig.xml'

@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Appsprint Lab',
+    name: 'App',
     short_name: 'Appsprint',
-    description: 'Appsprint Lab',
+    description: 'App',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',
