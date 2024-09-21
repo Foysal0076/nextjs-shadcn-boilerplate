@@ -18,14 +18,14 @@ export const Navbar = () => {
               src='/assets/images/icons/appsprint-logo.svg'
               alt='Appsprint Lab logo'
               height={36}
-              width={36}
+              width={38}
               className='object-contain dark:hidden'
             />
             <Image
               src='/assets/images/icons/appsprint-logo-dark.svg'
               alt='Appsprint Lab logo dark'
               height={36}
-              width={36}
+              width={38}
               className='hidden object-contain dark:block'
             />
           </Link>
