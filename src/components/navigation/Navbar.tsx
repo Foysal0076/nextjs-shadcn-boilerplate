@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 import ThemeSwitcher from '@/components/common/ThemeSwitcher'
@@ -13,7 +14,20 @@ export const Navbar = () => {
         aria-label='Main navigation'>
         <div className='tracking-tighter'>
           <Link href='/' className='h5 text-primary-400 font-extrabold'>
-            Home
+            <Image
+              src='/assets/images/icons/appsprint-logo.svg'
+              alt='Appsprint Lab logo'
+              height={36}
+              width={36}
+              className='object-contain dark:hidden'
+            />
+            <Image
+              src='/assets/images/icons/appsprint-logo-dark.svg'
+              alt='Appsprint Lab logo dark'
+              height={36}
+              width={36}
+              className='hidden object-contain dark:block'
+            />
           </Link>
         </div>
         <div className='flex gap-4'>

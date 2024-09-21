@@ -1,9 +1,7 @@
-import Spinner from '@/components/common/Spinner'
-
 export const HomeHero = () => {
   return (
     <div className='container'>
-      <div className='flex flex-col gap-6 lg:flex-row'>
+      {/* <div className='flex flex-col gap-6 lg:flex-row'>
         <div className='basis-1/2'>
           <h1 className='h1'>This is H1</h1>
           <h2 className='h2'>This is H2</h2>
@@ -92,7 +90,10 @@ export const HomeHero = () => {
           <div className='bg-surface-100/50 mt-4 h-32 w-32 rounded-lg border border-slate-900/10 shadow-md dark:border-slate-300/10'></div>
           <div className='bg-surface-100/50 mt-4 h-32 w-32 rounded-lg border border-slate-900/10 shadow-md dark:border-slate-300/10'></div>
         </div>
-      </div>
+      </div> */}
+      <h1 className='h1 mt-20 text-center'>
+        Welcome to <br /> Appsprint Lab
+      </h1>
     </div>
   )
 }

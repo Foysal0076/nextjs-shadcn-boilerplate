@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+import CopyrightText from '@/components/footer/CopyrightText'
+
 export const DrawerContent = () => {
   const year = new Date().getFullYear()
   return (
@@ -19,9 +21,7 @@ export const DrawerContent = () => {
             className='hover:text-primary-500 mb-4 text-sm transition-colors duration-300'>
             Contact
           </Link>
-          <p className={`flex items-center text-xs`}>
-            © {year}. All rights reserved.
-          </p>
+          <CopyrightText productName='appsprintlab' />
         </div>
       </div>
       <div className='flex gap-8 px-6 py-4 shadow-top'>
